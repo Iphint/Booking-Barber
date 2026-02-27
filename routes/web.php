@@ -48,7 +48,4 @@ Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
         ->name('schedule');
 });
 
-
-
-
 require __DIR__.'/auth.php';
